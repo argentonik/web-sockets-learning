@@ -1,12 +1,12 @@
 {
-  "name": "ws-simple-chat",
+  "name": "chat",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server",
+    "dev": "nodemon server",
   },
-  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/argentonik/web-sockets-learning.git"
@@ -18,7 +18,11 @@
   },
   "homepage": "https://github.com/argentonik/web-sockets-learning#readme",
   "dependencies": {
-    "uuid": "^8.3.2",
-    "ws": "^8.2.3"
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "socket.io": "^4.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
   }
 }
