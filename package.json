@@ -1,11 +1,24 @@
 {
-  "name": "websocket-intro-lesson",
+  "name": "ws-simple-chat",
   "version": "1.0.0",
-  "private": true,
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/argentonik/web-sockets-learning.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/argentonik/web-sockets-learning/issues"
+  },
+  "homepage": "https://github.com/argentonik/web-sockets-learning#readme",
   "dependencies": {
+    "uuid": "^8.3.2",
     "ws": "^8.2.3"
   }
 }
